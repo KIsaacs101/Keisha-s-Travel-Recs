@@ -1,0 +1,225 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/*Nav Bar*/
+nav {
+  background-color: #cc5cf3;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+a.firstStyle:link,
+a.firstStyle:visited {
+  color: white;
+}
+
+nav h1 {
+  font-size: 50px;
+}
+
+#DestinationInput {
+  width: 200px;
+  height: 20px;
+}
+
+nav li {
+  list-style: none;
+  font-size: 20px;
+  display: inline;
+  padding-right: 10px;
+}
+
+button {
+  border: none;
+  color: white;
+  background-color: #f3815c;
+  cursor: pointer;
+  height: 25px;
+  width: 65px;
+  text-decoration: none;
+}
+
+/*Home Page*/
+#HomePage img {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#HomePageText {
+  position: absolute;
+  color: #f3815c;
+  top: 290px;
+  left: 250px;
+  right: 250px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+#SocialMedia {
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+a.secondStyle:link,
+a.secondStyle:visited {
+  color: #cc5cf3;
+}
+
+/*About Us*/
+#AboutUs img {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+#AboutUsPageText {
+  position: absolute;
+  top: 150px;
+  left: 150px;
+  right: 150px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  text-align: center;
+  line-height: 1.6;
+}
+
+#AboutUsPageText h1 {
+  font-size: 60px;
+}
+
+#TeamMembers {
+  position: absolute;
+  top: 690px;
+  left: 200px;
+  right: 200px;
+  color: white;
+  text-align: center;
+}
+
+#TeamMembers ul {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 30px;
+  list-style: none;
+}
+
+/*Contact Us*/
+#ContactUsBG {
+  position: relative;
+  overflow-x: hidden;
+}
+
+#ContactUsForm h1 {
+  position: absolute;
+  color: white;
+  top: 150px;
+  font-size: 90px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 430px;
+}
+
+form {
+  position: absolute;
+  top: 300px;
+  color: white;
+  background-color: rgba(243, 129, 92, 0.5);
+  padding: 10px;
+  text-align: center;
+  font-size: 40px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+}
+
+form input {
+  margin-bottom: 25px;
+}
+
+#submitButton {
+  border-style: none;
+  background-color: #83f35c;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.inputStyleOne {
+  font-size: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+.inputStyleTwo {
+  font-size: 30px;
+  width: 500px;
+  text-align: center;
+}
+
+/*result section of home page*/
+#result {
+  overflow: hidden;
+  background-color: #cc5cf3;
+  height: 810px;
+}
+
+#backToHome {
+  position: relative;
+  top: 30px;
+  left: 1100px;
+  height: 90px;
+  font-size: 20px;
+  color: white;
+}
+
+#result {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 70px;
+  align-items: center;
+  padding-left: 10%;
+}
+
+.resultChild {
+  background-color: white;
+  width: 500px;
+  height: 600px;
+  border: 5px solid white;
+}
+
+.resultImage {
+  width: 490px;
+  height: 400px;
+}
+
+.resultName {
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  color: #f3815c;
+}
+
+.resultDescription {
+  font-size: 20px;
+  padding: 10px;
+  line-height: 1.6;
+  text-align: center;
+  color: #f3815c;
+}

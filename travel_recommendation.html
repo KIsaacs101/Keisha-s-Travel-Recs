@@ -1,12 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Keisha's Travel Recs</title>
-    <link rel="stylesheet" href="./travel_recommendation.css">
-</head>
-<body>
-    
+    <link rel="stylesheet" href="./travel_recommendation.css" />
+    <script
+      src="https://kit.fontawesome.com/9ac2f0bacf.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav>
+      <h1>Keisha's Travel Recs</h1>
+      <ul>
+        <li>
+          <a class="firstStyle" href="./travel_recommendation.html" id="Home"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            class="firstStyle"
+            href="travel_recommendation_about.html"
+            id="AboutUs"
+            >About Us</a
+          >
+        </li>
+        <li>
+          <a
+            class="firstStyle"
+            href="./travel_recommendation_contact.html"
+            id="ContactUs"
+            >Contact Us</a
+          >
+        </li>
+        <li>
+          <input
+            type="text"
+            id="DestinationInput"
+            placeholder="Enter a Destination or Keyword"
+          />
+        </li>
+        <li>
+          <button id="SearchBTN">
+            <a class="firstStyle" href="#result" style="text-decoration: none"
+              >Search</a
+            >
+          </button>
+        </li>
+        <li>
+          <button id="ClearBTN">Clear</button>
+        </li>
+      </ul>
+    </nav>
+    <div id="HomePage">
+      <img
+        src="https://happay.com/blog/wp-content/uploads/sites/12/2022/09/Business-Travel-Management-_1_-scaled-1.webp"
+        alt="A mix of popular items used for travel, including a passport, luggage, and camera, surrounding an image of a world map."
+      />
+      <div id="HomePageText">
+        <h2>
+          Discover Your Perfect Paradise! <br />
+          <br />
+          Your gateway to discovering the world's most diverse and exciting
+          travel destinations has begun. From hidden gems to iconic landmarks,
+          I’ll bring expert recommendations and insider tips to make every
+          journey extraordinary.
+        </h2>
+        <div id="SocialMedia">
+          <a class="secondStyle" href="https://www.tiktok.com/" target="_blank"
+            ><i class="fa-brands fa-tiktok"></i
+          ></a>
+          <a
+            class="secondStyle"
+            href="https://www.instagram.com/"
+            target="_blank"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a class="secondStyle" href="https://x.com/" target="_blank"
+            ><i class="fa-brands fa-twitter"></i
+          ></a>
+          <a class="secondStyle" href="https://www.youtube.com/" target="_blank"
+            ><i class="fa-brands fa-youtube"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <div id="result" style="display: none">
+      <div class="resultChild">
+        <img class="resultImage" id="resultImage1" src="" />
+        <h1 class="resultName" id="resultName1"></h1>
+        <h2 class="resultDescription" id="resultDescription1"></h2>
+      </div>
+      <div class="resultChild">
+        <img class="resultImage" id="resultImage2" src="" />
+        <h1 class="resultName" id="resultName2"></h1>
+        <h2 class="resultDescription" id="resultDescription2"></h2>
+      </div>
+      <a id="backToHome" href="#top"
+        ><i class="fa-solid fa-house"></i> Back To Top
+        <i class="fa-solid fa-house"></i
+      ></a>
+    </div>
     <script src="./travel_recommendation.js"></script>
-</body>
+  </body>
 </html>
